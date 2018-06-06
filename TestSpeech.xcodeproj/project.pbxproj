@@ -12,29 +12,29 @@
 		148AA08C20C830E7000AD428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148AA08A20C830E7000AD428 /* Main.storyboard */; };
 		148AA08E20C830E9000AD428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148AA08D20C830E9000AD428 /* Assets.xcassets */; };
 		148AA09120C830E9000AD428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148AA08F20C830E9000AD428 /* LaunchScreen.storyboard */; };
-		148AA0A120C83164000AD428 /* TLSphinx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148AA09E20C83143000AD428 /* TLSphinx.framework */; };
-		148AA0A220C83164000AD428 /* TLSphinx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 148AA09E20C83143000AD428 /* TLSphinx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		148AA0A820C83257000AD428 /* en-us in Resources */ = {isa = PBXBuildFile; fileRef = 148AA0A720C83257000AD428 /* en-us */; };
+		148AA0C420C83545000AD428 /* TLSphinx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148AA0C120C83525000AD428 /* TLSphinx.framework */; };
+		148AA0C520C83545000AD428 /* TLSphinx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 148AA0C120C83525000AD428 /* TLSphinx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		148AA09D20C83143000AD428 /* PBXContainerItemProxy */ = {
+		148AA0C020C83525000AD428 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 148AA09820C83143000AD428 /* TLSphinx.xcodeproj */;
+			containerPortal = 148AA0BB20C83525000AD428 /* TLSphinx.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9B5187AF1B18E1E80000E78D;
 			remoteInfo = TLSphinx;
 		};
-		148AA09F20C83143000AD428 /* PBXContainerItemProxy */ = {
+		148AA0C220C83525000AD428 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 148AA09820C83143000AD428 /* TLSphinx.xcodeproj */;
+			containerPortal = 148AA0BB20C83525000AD428 /* TLSphinx.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9B5187BA1B18E1E80000E78D;
 			remoteInfo = TLSphinxTests;
 		};
-		148AA0A320C83164000AD428 /* PBXContainerItemProxy */ = {
+		148AA0C620C83545000AD428 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 148AA09820C83143000AD428 /* TLSphinx.xcodeproj */;
+			containerPortal = 148AA0BB20C83525000AD428 /* TLSphinx.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 9B5187AE1B18E1E80000E78D;
 			remoteInfo = TLSphinx;
@@ -48,7 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				148AA0A220C83164000AD428 /* TLSphinx.framework in Embed Frameworks */,
+				148AA0C520C83545000AD428 /* TLSphinx.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,8 +63,8 @@
 		148AA08D20C830E9000AD428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		148AA09020C830E9000AD428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		148AA09220C830E9000AD428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		148AA09820C83143000AD428 /* TLSphinx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TLSphinx.xcodeproj; path = ../../TLSphinx.xcodeproj; sourceTree = "<group>"; };
 		148AA0A720C83257000AD428 /* en-us */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "en-us"; sourceTree = "<group>"; };
+		148AA0BB20C83525000AD428 /* TLSphinx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TLSphinx.xcodeproj; path = ../../../TLSphinx.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				148AA0A120C83164000AD428 /* TLSphinx.framework in Frameworks */,
+				148AA0C420C83545000AD428 /* TLSphinx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,6 @@
 		148AA07A20C830E7000AD428 = {
 			isa = PBXGroup;
 			children = (
-				148AA09820C83143000AD428 /* TLSphinx.xcodeproj */,
 				148AA08520C830E7000AD428 /* TestSpeech */,
 				148AA08420C830E7000AD428 /* Products */,
 			);
@@ -99,6 +98,7 @@
 		148AA08520C830E7000AD428 /* TestSpeech */ = {
 			isa = PBXGroup;
 			children = (
+				148AA0BB20C83525000AD428 /* TLSphinx.xcodeproj */,
 				148AA0A620C83249000AD428 /* Supporting Files */,
 				148AA08620C830E7000AD428 /* AppDelegate.swift */,
 				148AA08820C830E7000AD428 /* ViewController.swift */,
@@ -110,21 +110,21 @@
 			path = TestSpeech;
 			sourceTree = "<group>";
 		};
-		148AA09920C83143000AD428 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				148AA09E20C83143000AD428 /* TLSphinx.framework */,
-				148AA0A020C83143000AD428 /* TLSphinxTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		148AA0A620C83249000AD428 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				148AA0A720C83257000AD428 /* en-us */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		148AA0BC20C83525000AD428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148AA0C120C83525000AD428 /* TLSphinx.framework */,
+				148AA0C320C83525000AD428 /* TLSphinxTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +142,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				148AA0A420C83164000AD428 /* PBXTargetDependency */,
+				148AA0C720C83545000AD428 /* PBXTargetDependency */,
 			);
 			name = TestSpeech;
 			productName = TestSpeech;
@@ -177,8 +177,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 148AA09920C83143000AD428 /* Products */;
-					ProjectRef = 148AA09820C83143000AD428 /* TLSphinx.xcodeproj */;
+					ProductGroup = 148AA0BC20C83525000AD428 /* Products */;
+					ProjectRef = 148AA0BB20C83525000AD428 /* TLSphinx.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -189,18 +189,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		148AA09E20C83143000AD428 /* TLSphinx.framework */ = {
+		148AA0C120C83525000AD428 /* TLSphinx.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TLSphinx.framework;
-			remoteRef = 148AA09D20C83143000AD428 /* PBXContainerItemProxy */;
+			remoteRef = 148AA0C020C83525000AD428 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		148AA0A020C83143000AD428 /* TLSphinxTests.xctest */ = {
+		148AA0C320C83525000AD428 /* TLSphinxTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = TLSphinxTests.xctest;
-			remoteRef = 148AA09F20C83143000AD428 /* PBXContainerItemProxy */;
+			remoteRef = 148AA0C220C83525000AD428 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -232,10 +232,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		148AA0A420C83164000AD428 /* PBXTargetDependency */ = {
+		148AA0C720C83545000AD428 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TLSphinx;
-			targetProxy = 148AA0A320C83164000AD428 /* PBXContainerItemProxy */;
+			targetProxy = 148AA0C620C83545000AD428 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
