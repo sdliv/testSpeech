@@ -12,7 +12,48 @@
 		148AA08C20C830E7000AD428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148AA08A20C830E7000AD428 /* Main.storyboard */; };
 		148AA08E20C830E9000AD428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148AA08D20C830E9000AD428 /* Assets.xcassets */; };
 		148AA09120C830E9000AD428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148AA08F20C830E9000AD428 /* LaunchScreen.storyboard */; };
+		148AA0A120C83164000AD428 /* TLSphinx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148AA09E20C83143000AD428 /* TLSphinx.framework */; };
+		148AA0A220C83164000AD428 /* TLSphinx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 148AA09E20C83143000AD428 /* TLSphinx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		148AA0A820C83257000AD428 /* en-us in Resources */ = {isa = PBXBuildFile; fileRef = 148AA0A720C83257000AD428 /* en-us */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		148AA09D20C83143000AD428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148AA09820C83143000AD428 /* TLSphinx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9B5187AF1B18E1E80000E78D;
+			remoteInfo = TLSphinx;
+		};
+		148AA09F20C83143000AD428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148AA09820C83143000AD428 /* TLSphinx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9B5187BA1B18E1E80000E78D;
+			remoteInfo = TLSphinxTests;
+		};
+		148AA0A320C83164000AD428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148AA09820C83143000AD428 /* TLSphinx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5187AE1B18E1E80000E78D;
+			remoteInfo = TLSphinx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		148AA0A520C83164000AD428 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				148AA0A220C83164000AD428 /* TLSphinx.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		148AA08320C830E7000AD428 /* TestSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +63,8 @@
 		148AA08D20C830E9000AD428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		148AA09020C830E9000AD428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		148AA09220C830E9000AD428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148AA09820C83143000AD428 /* TLSphinx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TLSphinx.xcodeproj; path = ../../TLSphinx.xcodeproj; sourceTree = "<group>"; };
+		148AA0A720C83257000AD428 /* en-us */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "en-us"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148AA0A120C83164000AD428 /* TLSphinx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +82,7 @@
 		148AA07A20C830E7000AD428 = {
 			isa = PBXGroup;
 			children = (
+				148AA09820C83143000AD428 /* TLSphinx.xcodeproj */,
 				148AA08520C830E7000AD428 /* TestSpeech */,
 				148AA08420C830E7000AD428 /* Products */,
 			);
@@ -54,6 +99,7 @@
 		148AA08520C830E7000AD428 /* TestSpeech */ = {
 			isa = PBXGroup;
 			children = (
+				148AA0A620C83249000AD428 /* Supporting Files */,
 				148AA08620C830E7000AD428 /* AppDelegate.swift */,
 				148AA08820C830E7000AD428 /* ViewController.swift */,
 				148AA08A20C830E7000AD428 /* Main.storyboard */,
@@ -62,6 +108,23 @@
 				148AA09220C830E9000AD428 /* Info.plist */,
 			);
 			path = TestSpeech;
+			sourceTree = "<group>";
+		};
+		148AA09920C83143000AD428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148AA09E20C83143000AD428 /* TLSphinx.framework */,
+				148AA0A020C83143000AD428 /* TLSphinxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148AA0A620C83249000AD428 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				148AA0A720C83257000AD428 /* en-us */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +137,12 @@
 				148AA07F20C830E7000AD428 /* Sources */,
 				148AA08020C830E7000AD428 /* Frameworks */,
 				148AA08120C830E7000AD428 /* Resources */,
+				148AA0A520C83164000AD428 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				148AA0A420C83164000AD428 /* PBXTargetDependency */,
 			);
 			name = TestSpeech;
 			productName = TestSpeech;
@@ -110,6 +175,12 @@
 			mainGroup = 148AA07A20C830E7000AD428;
 			productRefGroup = 148AA08420C830E7000AD428 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 148AA09920C83143000AD428 /* Products */;
+					ProjectRef = 148AA09820C83143000AD428 /* TLSphinx.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				148AA08220C830E7000AD428 /* TestSpeech */,
@@ -117,12 +188,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		148AA09E20C83143000AD428 /* TLSphinx.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TLSphinx.framework;
+			remoteRef = 148AA09D20C83143000AD428 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		148AA0A020C83143000AD428 /* TLSphinxTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TLSphinxTests.xctest;
+			remoteRef = 148AA09F20C83143000AD428 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		148AA08120C830E7000AD428 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				148AA09120C830E9000AD428 /* LaunchScreen.storyboard in Resources */,
+				148AA0A820C83257000AD428 /* en-us in Resources */,
 				148AA08E20C830E9000AD428 /* Assets.xcassets in Resources */,
 				148AA08C20C830E7000AD428 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +230,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		148AA0A420C83164000AD428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLSphinx;
+			targetProxy = 148AA0A320C83164000AD428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		148AA08A20C830E7000AD428 /* Main.storyboard */ = {
@@ -279,36 +376,42 @@
 		148AA09620C830E9000AD428 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VEM8YS6H27;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = TestSpeech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sean.TestSpeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		148AA09720C830E9000AD428 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VEM8YS6H27;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = TestSpeech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sean.TestSpeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
